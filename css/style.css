@@ -1,5 +1,5 @@
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+	background: #FAEBD7 url('../images/green.jpg') 100%;
 	color: #333;
 }
 
@@ -18,10 +18,13 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
-	color: BlanchedAlmond;
+	background-color: ;
+	color: White;
 	min-height: 100px;
 	margin-top: 60px;
+	margin: auto;
+	font-size:100px;
+	font-family:arial;
 }
 
 header h1 {
