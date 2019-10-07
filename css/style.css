@@ -1,10 +1,8 @@
-body {color: white;}
+body 
 
 
-
-header, nav, main, footer {
-	margin: 0;
-}
+header, nav, main, footer 
+{margin: 0;}
 
 
 /* Header styles */
@@ -15,17 +13,31 @@ header {
 	margin-top: 200px;
 	margin-bottom: 200px;
 	font-size:100px;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', cursive;}
 
-}
-
-header h1 {
-	padding: 60px 60px;
-}
+h1 {	
+	font-size: 100px;
+	margin-top: 20vh;
+	text-align: center;}
 
 
 /* Nav styles */
-nav {}
+nav {
+	margin: 0;
+	list-style-type: none;
+	display: grid; 
+	grid-template-columns: 1fr;
+	justify-content: flex-end;
+	width: 100%;
+	text-align: center;
+}
+
+nav li { display: inline; }
+nav a {
+	color: #f8f0db;
+	margin-left: 16px;
+}
+
 nav ul { 
 	display: inline;
 	justify-content: flex-end;
@@ -34,7 +46,7 @@ nav ul {
 }
 nav li { padding: 10px 10px; }
 nav a { color: Grey; }
-nav a:hover { color: blue; }
+nav a:hover { color: pink; }
 
 
 /* Main styles */
@@ -42,20 +54,6 @@ main {
 	background-color: #fff;
 	display: grid;
 	grid-template-columns: 60% 40%;
-}
-
-section {
-	padding: 40px 60px;
-}
-
-section ul, aside ul {
-	list-style-type: square;
-	margin-top: 20px; 
-	margin-left: 30px;
-}
-
-aside {
-	padding: 40px 10px;
 }
 
 
